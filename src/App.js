@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 import Header from "./Componentes/Header/Header";
 import CocoRouter from "./Componentes/CocoRouter";
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 const App = () => {
     return (
@@ -19,7 +20,11 @@ const App = () => {
                         <i className="fa-brands fa-whatsapp"></i>
                     </a>
                 </div>
-                <CocoRouter />
+                <Router>
+                 <Switch>
+                    <CocoRouter />
+                 </Switch>
+                </Router>
             </div>
         </>
     );

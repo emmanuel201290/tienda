@@ -7,7 +7,6 @@ import  NoEncontrado from './NoEncontrado';
 
 const CocoRouter = () => (
 
-<Router>
    <Switch>
       <Route exact path="/"  component={Inicio } />
       <Route path="/Inicio" component={ Inicio} />
@@ -16,8 +15,6 @@ const CocoRouter = () => (
  
       <Route component={ NoEncontrado } />
       </Switch>
-</Router>
-
  );
 
 export default CocoRouter;
