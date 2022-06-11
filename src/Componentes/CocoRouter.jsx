@@ -9,8 +9,8 @@ const CocoRouter = () => (
 
    <Switch>
       <Route exact path="/"  component={Inicio } />
-      <Route path="/Inicio" component={ Inicio} />
-      <Route path="/ofertas" component={Ofertas } />
+      <Route path="/Inicio" component={<h1>Inicio</h1>} />
+      <Route path="/ofertas" component={<h2>Oferta</h2> } />
       <Route path="/nuevo-registro" component={ Inscripcion} />
  
       <Route component={ NoEncontrado } />
