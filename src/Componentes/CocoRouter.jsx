@@ -5,12 +5,10 @@ import   Inicio from './Cuerpo/Inicio/Inicio'
 import Inscripcion from './Cuerpo/Inscripcion/Inscripcion';
 import  Ofertas  from  './Cuerpo/Ofertas/Ofertas';
 import  NoEncontrado from './NoEncontrado';
-import Header from "./Header/Header";
 
 const CocoRouter = () => (
 
-<Router fallback={<Spinner />}>
-  <Header/>
+<div fallback={<Spinner />}>
    <Switch>
       <Route exact path="/home"  component={Inicio } />
       <Route exact path="/inicio" component={ Inicio} />
@@ -19,7 +17,7 @@ const CocoRouter = () => (
  
       <Route component={ NoEncontrado } />
       </Switch>
-</Router>
+</div>
 );
 
 export default CocoRouter;

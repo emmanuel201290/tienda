@@ -1,10 +1,14 @@
 import React from "react";
 import './App.css';
+import Header from "./Componentes/Header/Header";
 import CocoRouter from "./Componentes/CocoRouter";
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 const App = () => {
     return (
         <>
+            <Router>
+            <Header/>
             <div className="app">
                 <div className="redes">
                     <a href="https://m.facebook.com/Cocos-Boutique-107672648620863" target="_blank">
@@ -17,8 +21,9 @@ const App = () => {
                         <i className="fa-brands fa-whatsapp"></i>
                     </a>
                 </div>
-                <CocoRouter />
+                   <CocoRouter />
             </div>
+            </Router>
         </>
     );
 };

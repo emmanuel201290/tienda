@@ -10,18 +10,22 @@ const Header = () => {
    <img src={Logo} alt="logo" className="logo nav-link"/>
      <ul className="nav-menu">
 
-     <NavLink activeClassName="active" className="nav-link" to ="/home">
-          Home
+     <li className="nav-menu-item">
+       <NavLink to ="/home">
+         <a className="nav-menu-link nav-link"><i class="fa-solid fa-house"></i>Inicio</a>
         </NavLink>
+        </li>
 
         <li className="nav-menu-item">
-        <a href="inicio" className="nav-menu-link nav-link"><i class="fa-solid fa-house"></i>Inicio</a>
+       <NavLink to ="/ofertas">
+         <a className="nav-menu-link nav-link"><i class="fa-solid fa-gifts"></i>Oferta</a>
+        </NavLink>
         </li>
+
         <li className="nav-menu-item">
-        <a href="/ofertas" className="nav-menu-link nav-link"><i className="fa-solid fa-gifts"></i>Ofertas</a>
-        </li>
-        <li className="nav-menu-item">
-        <a href="/nuevo-registro" className="nav-menu-link nav-link"><i class="fa-solid fa-user-plus"></i>Inscribirse</a>
+       <NavLink to ="/nuevo-registro">
+         <a className="nav-menu-link nav-link"><i class="fa-solid fa-user-plus"></i>Inscribirse</a>
+        </NavLink>
         </li>
      </ul>
    </nav>
