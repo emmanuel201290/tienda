@@ -1,0 +1,41 @@
+.banner {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    background-color: white; 
+    box-shadow: inset -7px 15px 20px -10px #53d3e3;
+ }
+
+.contenedor-titulo {
+    color: #2E406E;
+    width: 55%;
+    margin-right: 110px;
+}
+.sub-contenedor-titulo {
+    display: flex;
+    width: 650px;
+    margin: auto;
+    text-align: center;
+}
+.fa-arrow-down {
+    color: #2E406E;
+}
+
+.titulo-banner {
+    /*font-family: "Patrick Hand", "cursive";*/
+    font-family: 'Tiro Kannada', serif;
+    line-height: 1.6;
+    text-shadow: -1px -1px 1px aqua,3px 3px 3px rgba(255, 130, 188, 0.92);
+}
+
+.contenedor-imagen {
+    width: 45%;
+}
+
+.banner-imagen {
+    height: 250px;
+    width: 250px;
+    margin-top: 150px;
+    margin-left: 70px;
+}

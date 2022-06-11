@@ -1,0 +1,44 @@
+.home {
+    border-bottom-color: #181919;
+    width: 100%;
+    margin-top: 0;
+    left: 0;
+}
+
+.divVideo {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.tituloVideo {
+    text-align: center;
+    color: #d96cff;
+    text-shadow: 2px 3px 3px black;
+}
+
+.div-titulo-lineas {
+    text-align: center;
+}
+.titulo-lineas {
+    display: inline-block;
+    position: relative;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+}
+
+.titulo-lineas::after, .titulo-lineas::before {
+    content: '';
+    position: absolute;
+    width: 450px;
+    height: 3px;
+    background-color: black;
+    top: 2.1rem;
+}
+.titulo-lineas::before {
+    left: -460px;
+}
+
+.titulo-lineas::after {
+    right: -460px;
+}

@@ -1,0 +1,20 @@
+.div-marcas-general {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.div-marcas {
+    padding: 7px;
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+.marcas {
+    width: 170px;
+    height: 180px;
+}
+
+.marcas:hover {
+   opacity: 0.5;
+}

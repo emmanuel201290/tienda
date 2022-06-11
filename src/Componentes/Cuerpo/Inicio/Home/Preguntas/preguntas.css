@@ -1,0 +1,27 @@
+.preguntanos {
+    background-color: #f6f7caec;
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: 70px 0 70px;
+}
+
+.contenedorPaneles {
+    padding: 50px;
+}
+
+.preguntanos h1, h2 {
+    text-align: center;
+}
+.preguntanos h1 {
+   color: rgb(255, 0, 102);
+}
+.preguntanos h1:hover {
+    text-transform: uppercase;
+}
+.preguntanos h2{
+    color: rgb(19, 111, 89);
+}
+.preguntanos h2:hover{
+    text-transform: uppercase;
+}

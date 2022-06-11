@@ -1,0 +1,105 @@
+.footer {
+  background-color: #181919;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: rgb(169, 164, 164);
+  font-size: 17px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  /* flex-wrap: wrap; */
+}
+
+.footer h2 {
+  color:rgb(252, 252, 252);
+  text-decoration-color: #f3f6f9;
+  /* font-family: cursive; */
+}
+
+.footer p {
+  text-align: left;
+}
+
+.fa-location-dot, .fa-envelope, .fa-phone {
+  font-size: 3rem;
+  padding: 20px;
+  align-content: center;
+  margin: block 1px;
+  color: rgb(19, 111, 89)
+}
+
+.derechos {
+background-color: rgb(19, 111, 89);
+text-align: center;
+height: 40px;
+padding-top: 20px;
+color: white;
+}
+
+.marcoMapa {
+  padding: 20px;
+  height: 200px;
+  width: 350px;
+  border: 0;
+}
+
+.flip-card {
+  background-color: transparent;
+  padding: 15px;
+  border-radius: 5px;
+  width: 180px;
+  height: 80px;
+  perspective: 1000px;
+
+}
+
+.flip-card-inner {
+  position: relative;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(84, 241, 215, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  border-radius: 5px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: rgb(236, 175, 175);
+  color: rgb(19, 111, 89);
+}
+
+.flip-card-back {
+  background-color: #45e9e9;
+  color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+}
+
+.flip-card-back p {
+  text-align: center;
+  font-size: smaller;
+}
+
+.Contactos {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  flex-wrap: wrap;
+}
