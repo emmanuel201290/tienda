@@ -15,7 +15,7 @@ const Header = () => {
         </NavLink>
 
         <li className="nav-menu-item">
-        <a href="Inicio" className="nav-menu-link nav-link"><i class="fa-solid fa-house"></i>Inicio</a>
+        <a href="inicio" className="nav-menu-link nav-link"><i class="fa-solid fa-house"></i>Inicio</a>
         </li>
         <li className="nav-menu-item">
         <a href="/ofertas" className="nav-menu-link nav-link"><i className="fa-solid fa-gifts"></i>Ofertas</a>
