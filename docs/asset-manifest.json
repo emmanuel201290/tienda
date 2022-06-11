@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.645d94d2.css",
+    "main.js": "./static/js/main.09535986.js",
+    "static/media/chicasCompras.png": "./static/media/chicasCompras.6ef357c49d132f1de27b.png",
+    "static/media/NuevoLogo.PNG": "./static/media/NuevoLogo.8d31b09481a2d8f9ff1f.PNG",
+    "index.html": "./index.html",
+    "main.645d94d2.css.map": "./static/css/main.645d94d2.css.map",
+    "main.09535986.js.map": "./static/js/main.09535986.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.645d94d2.css",
+    "static/js/main.09535986.js"
+  ]
+}
