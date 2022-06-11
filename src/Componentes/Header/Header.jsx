@@ -11,19 +11,19 @@ const Header = () => {
      <ul className="nav-menu">
 
      <li className="nav-menu-item">
-       <NavLink to ="/home">
-         <a className="nav-menu-link nav-link"><i class="fa-solid fa-house"></i>Inicio</a>
+       <NavLink to ="/" style={{ textDecoration: 'none' }}>
+         <a  className="nav-menu-link nav-link"><i class="fa-solid fa-house"></i>Inicio</a>
         </NavLink>
         </li>
 
         <li className="nav-menu-item">
-       <NavLink to ="/ofertas">
+       <NavLink to ="/ofertas" style={{ textDecoration: 'none' }}>
          <a className="nav-menu-link nav-link"><i class="fa-solid fa-gifts"></i>Oferta</a>
         </NavLink>
         </li>
 
         <li className="nav-menu-item">
-       <NavLink to ="/nuevo-registro">
+       <NavLink to ="/nuevo-registro" style={{ textDecoration: 'none' }}>
          <a className="nav-menu-link nav-link"><i class="fa-solid fa-user-plus"></i>Inscribirse</a>
         </NavLink>
         </li>

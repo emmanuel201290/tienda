@@ -10,7 +10,7 @@ const CocoRouter = () => (
 
 <div fallback={<Spinner />}>
    <Switch>
-      <Route exact path="/home"  component={Inicio } />
+      <Route exact path="/"  component={Inicio } />
       <Route exact path="/inicio" component={ Inicio} />
       <Route exact path="/ofertas" component={Ofertas } />
       <Route exact path="/nuevo" component={ Inscripcion} />
