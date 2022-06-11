@@ -7,14 +7,17 @@ import  NoEncontrado from './NoEncontrado';
 
 const CocoRouter = () => (
 
+<Router>
    <Switch>
-      <Route exact path="/"  component={Inicio } />
-      <Route path="/Inicio" component={<h1>Inicio</h1>} />
-      <Route path="/ofertas" component={<h2>Oferta</h2> } />
-      <Route path="/nuevo-registro" component={ Inscripcion} />
+      <Route exact path="/home"  component={Inicio } />
+      <Route exact path="/inicio" component={ Inicio} />
+      <Route exact path="/ofertas" component={Ofertas } />
+      <Route exact path="/nuevo" component={ Inscripcion} />
  
       <Route component={ NoEncontrado } />
       </Switch>
+</Router>
+
  );
 
 export default CocoRouter;
